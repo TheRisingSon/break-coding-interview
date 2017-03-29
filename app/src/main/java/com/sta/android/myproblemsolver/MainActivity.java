@@ -37,10 +37,10 @@ public class MainActivity extends AppCompatActivity {
         Object nullObject = null;
         nullObject.hashCode();
 
-        TextView textView = new TextView(this);
-        Spinner spinner = textView;
-
-        callNonexistentMethod();
+//        TextView textView = new TextView(this);
+//        Spinner spinner = textView;
+//
+//        callNonexistentMethod();
 
         clearables = new ArrayList<>();
 
